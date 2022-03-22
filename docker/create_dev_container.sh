@@ -2,7 +2,7 @@
 
 # Diretorio de trabalho que deseja-se mapear para dentro do container.
 WORKSPACE_DIR=$HOME/git/cpp-backend
-IMAGE_NAME=arturamaral/ubuntu:0.1
+IMAGE_NAME=arturamaral/ubuntu:0.2
 
 sudo docker create -it --privileged \
 	-m 256m\
